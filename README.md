@@ -20,7 +20,7 @@ Python 3.x
 
 OpenCV (cv2)
 
-##Tesseract OCR
+Tesseract OCR
 
 pytesseract library
 
