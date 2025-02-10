@@ -32,9 +32,9 @@ pytesseract library
 
 2.Install Tesseract OCR:
 
-    Download and install Tesseract from: Tesseract GitHub
+Download and install Tesseract from: Tesseract GitHub
 
-    Set up the Tesseract path in the script
+Set up the Tesseract path in the script
 
 ## Usage
 Place your video file in the main project folder.
