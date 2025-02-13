@@ -3,7 +3,8 @@
 ## Purpose/How It Works
 This Python script extracts text from a video file using OpenCV and Tesseract OCR. 
 It processes one frame per second and saves detected text in a text file while also 
-storing processed frames with bounding boxes around the detected text.
+storing processed frames with bounding boxes around the detected text (can be 
+commented out, mainly for debugging purposes).
 
 ## Features
 Extracts text from video frames using Tesseract OCR
@@ -20,8 +21,6 @@ Python 3.x
 
 OpenCV (cv2)
 
-Tesseract OCR
-
 pytesseract library
 
 ## Installation
@@ -33,7 +32,7 @@ pytesseract library
 ## Usage
 Place your video file in the main project folder.
 
-Run the script (if not using PyCharm):
+Run the script:
 
     python main.py
 
