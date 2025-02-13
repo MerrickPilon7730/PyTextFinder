@@ -30,12 +30,6 @@ pytesseract library
 
     pip install opencv-python pytesseract
 
-2.Install Tesseract OCR:
-
-Download and install Tesseract from: Tesseract GitHub
-
-Set up the Tesseract path in the script
-
 ## Usage
 Place your video file in the main project folder.
 

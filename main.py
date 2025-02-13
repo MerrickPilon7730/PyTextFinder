@@ -10,9 +10,6 @@ cap = cv2.VideoCapture(video_path)
 fps = int(cap.get(cv2.CAP_PROP_FPS))
 frame_interval = fps
 
-# Change if it is installed in a different directory
-pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
-
 output_text_file = "detected_text.txt"
 output_frames_folder = "output_frames"
 os.makedirs(output_frames_folder, exist_ok=True)
