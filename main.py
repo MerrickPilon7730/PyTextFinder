@@ -6,7 +6,8 @@ import os
 video_path = "video2.mkv"
 cap = cv2.VideoCapture(video_path)
 
-# Change if it is installed in a different directory
+# Change if it is installed in a different directory/or if the import is not working properly. Will require a download
+#of tesseract.
 pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 
 # Get video FPS to process one frame per second
