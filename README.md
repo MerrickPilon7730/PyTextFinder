@@ -40,5 +40,11 @@ The detected text will be saved in detected_text.txt.
 
 Processed frames with bounding boxes will be stored in the output_frames folder.
 
+## License
+
+I added a GNU GPL(General Public License) because I wanted to ensure that it remains
+as an open source program under the same license. It allows others to freely use, modify,
+and distribute the code with minimal restrictions, focusing on collaboration.
+
 ## Author
 Merrick Pilon
